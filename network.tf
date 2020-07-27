@@ -1,5 +1,7 @@
 provider "google" {
   version = "~> 3.3.0"
+  credentials = file("C:/Users/manoj/OneDrive/Documents/credentials.json")
+  project  = "playground-s-11-5398fd04"
 }
 
 provider "null" {
